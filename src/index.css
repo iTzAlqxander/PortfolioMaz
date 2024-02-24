@@ -1,13 +1,95 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-gradient: linear-gradient(45deg, #6fddf8, #007CF0); /* Adjust the gradient colors as needed */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: linear-gradient(135deg, #0b061c, #1d1939, #1a1a2e); /* Adjusted to darker shades */
+  color: #ffffff;
+  font-family: 'Fira Code', monospace;
 }
+
+/* Adding a general transition effect for all hoverable elements */
+a, button {
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-background {
+  background: #000000;
+}
+
+.gradient-text {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: var(--text-gradient);
+  text: black; /* Ensure text remains visible */
+}
+
+.hover-gradient-text {
+  transition: color 0.2s ease;
+}
+
+.hover-gradient-text:hover {
+  color: transparent;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* You can add media queries and other CSS as needed */
+
+
+  .text-container {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .text-container {
+      font-size: 13.5px; /* Smaller font size on smaller screens */
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .text-container {
+      font-size: 16px; /* Slightly larger font size on medium screens */
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .text-container {
+      font-size: 18px; /* Larger font size on larger screens */
+    }
+  }
+  
+  .white-cursor {
+    cursor: white;
+  }
+  
+  .bg-black {
+    background-color: #121212; /* Dark mode friendly background */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .bg-black:hover {
+    background-color: #1c1c1c; /* Slightly lighter shade on hover */
+  }
+  
+  .rounded-lg, .rounded-xl {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions for shadow and scale */
+  }
+  
+  .rounded-lg:hover, .rounded-xl:hover {
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 15px 15px -5px rgba(0, 0, 0, 0.08);
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+  
