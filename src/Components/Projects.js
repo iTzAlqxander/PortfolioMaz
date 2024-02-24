@@ -6,23 +6,17 @@ function Projects() {
       title: 'EasyMeal: Recipes',
       description: 'An innovative mobile app for personalized recipe suggestions.',
       technologies: ['SwiftUI', 'Swift', 'Figma'],
-      image: 'https://via.placeholder.com/400', // Placeholder image
-      url: 'https://example.com/easymeal', // Add your project URL here
+      image: 'https://i.ibb.co/nsxVMwK/new.png', // Placeholder image
+      url: 'https://github.com/alexstrugacz/EasyMeal-iOS', // Add your project URL here
     },
     {
-      title: 'Git Init 2023',
+      title: 'EasyMeal',
       description: 'A web application for custom recipe suggestions based on fitness goals.',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-      image: 'https://via.placeholder.com/400', // Placeholder image
-      url: 'https://example.com/gitinit2023', // Add your project URL here
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Figma', 'Firebase'],
+      image: 'https://i.ibb.co/qWJdDcB/Screenshot-2024-02-24-at-12-47-16-PM.png', // Placeholder image
+      url: 'https://devpost.com/software/easymeal', // Add your project URL here
     },
-    {
-      title: 'Git Init 2024',
-      description: 'A web application for custom recipe suggestions based on fitness goals.',
-      technologies: ['React', 'TypeScript'],
-      image: 'https://via.placeholder.com/400', // Placeholder image
-      url: 'https://example.com/gitinit2023', // Add your project URL here
-    },
+    
     // Add more projects here with placeholders and URLs
   ];
 
