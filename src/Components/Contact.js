@@ -49,7 +49,7 @@ function Contact() {
               <a href="mailto:alexander@masztak.com" className="hover:text-[#6fddf8] transition duration-300"><FaEnvelope size={28} /></a>
             </div>
             <div className="mt-6">
-            <button onClick={downloadResume} className="inline-block px-6 py-3 rounded-full text-black bg-gradient-to-r from-[#6fddf8] to-[#007CF0] hover:from-[#5bc6ff] hover:to-[#4da7db] transition duration-300 shadow-lg">
+            <button onClick={downloadResume} className="inline-block px-6 py-3 rounded text-black bg-gradient-to-r from-[#6fddf8] to-[#007CF0] hover:from-[#5bc6ff] hover:to-[#4da7db] transition duration-300 shadow-lg">
     <span className="flex items-center">
         Download Resume
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
