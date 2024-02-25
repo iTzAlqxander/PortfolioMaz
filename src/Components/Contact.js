@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -18,16 +17,16 @@ function Contact() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs.sendForm('service_m4ook87', 'template_z9ruaqe', e.target, 'q8-oofW_Qo54bLg0-')
-      .then((result) => {
-          console.log(result.text);
-          alert('Message sent successfully!');
-      }, (error) => {
-          console.log(error.text);
-          alert('Failed to send message, please try again.');
-      });
-    setFormData({ name: '', email: '', message: '' }); // Clear form after submission
+    // e.preventDefault();
+    // emailjs.sendForm('service_m4ook87', 'template_z9ruaqe', e.target, 'q8-oofW_Qo54bLg0-')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //       alert('Message sent successfully!');
+    //   }, (error) => {
+    //       console.log(error.text);
+    //       alert('Failed to send message, please try again.');
+    //   });
+    // setFormData({ name: '', email: '', message: '' }); // Clear form after submission
   };
   
 

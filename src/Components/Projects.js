@@ -16,6 +16,14 @@ function Projects() {
       image: 'https://i.ibb.co/qWJdDcB/Screenshot-2024-02-24-at-12-47-16-PM.png', // Placeholder image
       url: 'https://devpost.com/software/easymeal', // Add your project URL here
     },
+    {
+      title: 'Modern Club Finder',
+      description: 'A web application for Hersey High School staff and students to find and manage clubs and activities.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Figma'], 
+      image: 'https://i.ibb.co/Qr2CsLz/club-Finder.png', 
+      url: 'https://github.com/Hersey-Developers/modern-club-finder', 
+
+    },
     
     // Add more projects here with placeholders and URLs
   ];
