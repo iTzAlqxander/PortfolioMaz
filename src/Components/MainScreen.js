@@ -43,7 +43,7 @@ function MainScreen() {
         </h1>
         <p className="text-base font-abc text-white mt-8">
           Currently, I am a student at <span className="gradient-text"> Illinois State University</span>
-          <br /> majoring in Computer Science - General. I focus on creating
+          <br /> majoring in Computer Science. I focus on creating
           <br /> websites and mobile applications.
         </p>
       </div>

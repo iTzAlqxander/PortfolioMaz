@@ -25,8 +25,8 @@ function App() {
   }, []);
 
   const downloadResume = () => {
-    window.open('https://firebasestorage.googleapis.com/v0/b/yourportfolio.appspot.com/o/YourResume.pdf?alt=media&token=your-token', '_blank');
-  };
+    window.open('https://firebasestorage.googleapis.com/v0/b/mazportfolio-7ec06.appspot.com/o/MasztakResume.pdf?alt=media&token=954f7883-b605-4a7f-8070-4e66169668aa', '_blank');
+};
 
   return (
     <div>
